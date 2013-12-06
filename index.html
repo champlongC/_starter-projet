@@ -1,0 +1,44 @@
+<!doctype html>
+<!-- class conditionnelle, permettent de cibler Internet Explorer en css -->
+<!--[if lte IE 7]> <html class="ie67 ie678" lang="fr"> <![endif]-->
+<!--[if IE 8]> <html class="ie8 ie678" lang="fr"> <![endif]-->
+<!--[if gt IE 8]><!--> <html lang="fr"> <!--<![endif]-->
+<head>
+    <meta charset="UTF-8">
+	<!-- title, balise obligatoire dans un fichier html5, afin d'optimiser le référencement elle doit contenir les infos décrites  -->
+    <title>[titre de page] | [catégorie] | [nom de domaine]</title>
+	<!-- Keywords, les mots clefs, plus personne pourquoi on utilise encore cette balise ...  -->
+    <meta name="Keywords" content="[mots clefs]">
+	<!-- Description, très importante cette description est affiché dans les résultat de google -->
+    <meta name="Description" content="[description]">
+    
+	<!-- demande au robot (google and friends) de référencer et archiver le site, oblige également les robots à suivre les liens dans le site -->
+    <meta name="robots" content="index, follow, archive">
+    <meta name="robots" content="all">
+    
+	<meta name="viewport" content="initial-scale=1.0">
+
+    <!-- support des éléments html5 dans Internet Explorer 8 et moins -->
+    <!-- support des media queries css3 dans Internet Explorer 8 et moins -->
+	<!--[if lt IE 9]>
+		<script src="js/html5shiv.js"></script>
+        <script src="js/respond.js"></script>
+	<![endif]-->
+	
+	<!-- icone afficher dans l'onglet du navigateur -->
+	<link rel="icon" href="favicon.ico">
+	
+	<!-- les feuilles de style NB : toujours appeler sa feuille de style en dernier -->
+    <link rel="stylesheet" href="index.css">
+    <!-- test modification -->
+</head>
+<body>
+    
+<!-- lier la bibliothèque jquery, on preferera lister les script juste avant la fermeture du body 
+<script src="js/jquery-1.10.2.min.js"></script>
+-->
+<!-- votre fichier script 
+<script src="js/index.js"></script>
+-->
+</body>
+</html>
